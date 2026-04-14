@@ -3,10 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Clifton Construction</title>
-  <link rel="stylesheet" href="main.css">
-  <link rel="stylesheet" href="reset.css">
+  <title>Projects</title>
 </head>
+
 <body>
   <div class="Wrapper">
     <head>Clifton Construction</head>
@@ -19,9 +18,11 @@
       </ul>
     </nav>
   </div>
-  <section class="Description">
-  <h2>Who we are</h2>
-  <p>Clifton Construction is a local construction company based out of Cincinnati Ohio. We build, repair, and remodel anything from fences to kitchens. We specialize in capentry and are skilled in masonry and roofing</p>
+  <h2>Previous Projects</h2>
+  <section class="Gallery">
+<img src="
+" alt="">
   </section>
+
 </body>
 </html>
