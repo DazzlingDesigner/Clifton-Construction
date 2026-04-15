@@ -1,38 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
 h1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 5em;
   text-align: center;
+  margin: 2rem;
+  
 }
+
+body {
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 100%;
+}
+.wrapper{
+ grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+img {
+  max-width: 100%;
+}
+
 .intro {
   font-size: 2em;
+  margin: 2rem 0 .5rem 2rem;
 }
-.description {
-    font-size: 1.2em;
 
+.description {
+  font-size: 1.2em;
+  margin: 0 1rem 2rem;
 }
-nav { 
-  text-transform: uppercase;   
-/* optional */
-  background-color: rgb(223, 191, 150); /* change this to your color choice */
+
+nav {
+  text-transform: uppercase;
+  /* optional */
+  background-color: rgb(223, 191, 150);
+  /* change this to your color choice */
 }
-nav ul { 
-  display: flex;  /* makes it horizontal */
-  flex-wrap: wrap;  /* optional */
-  justify-content: space-around;  /* equally spaces the links */
-  align-items: center;  /* centers vertically */
+
+nav ul {
+  display: flex;
+  /* makes it horizontal */
+  flex-wrap: wrap;
+  /* optional */
+  justify-content: space-around;
+  /* equally spaces the links */
+  align-items: center;
+  /* centers vertically */
 }
+
 nav li {
   padding: 1rem;
-  list-style-type: none; /* removes bullet points */
+  list-style-type: none;
+  /* removes bullet points */
 }
-nav a {   
-/* navigation links */
-  padding: 1rem 2rem;  /* clickable space around links */
-  text-decoration: none;  /* removes link underlines */
-  color: black;  /* or any other color you want */
-} 
+
+nav a {
+  /* navigation links */
+  padding: 1rem 2rem;
+  /* clickable space around links */
+  text-decoration: none;
+  /* removes link underlines */
+  color: black;
+  /* or any other color you want */
+}
+
 nav a:hover {
-  background-color: orangered; /* change this to your color choice  */
+  background-color: orangered;
+  /* change this to your color choice  */
   color: white;
 }
 
