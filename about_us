@@ -13,24 +13,27 @@
     <h1>Clifton Construction</h1>
     <nav>
       <ul>
-        <li> <a href="index.html">Home  <img src="images/house.svg" alt="Home Icon"></a> </li>
+        <li> <a href="index.html">Home <img src="images/house.svg" alt="Home Icon"></a> </li>
         <li> <a href="projects.html">Projects <img src="images/cone-striped.svg" alt="Projects Icon"></a> </li>
         <li> <a href="about_us">About Us <img src="images/info-circle.svg" alt="Info Icon"></a> </li>
         <li><a href="profile">Profile <img src="images/person-circle.svg" alt="Person Icon"></a></li>
       </ul>
     </nav>
-    <section class="Identity">
+    <section class="grid">
       <h2 class="intro">About Us</h2>
-      <p class="description">Founded in 2022, Clifton Construction has been improving Cincinnati with every project they complete. With the goal of advancing their skills in construction, Alisander Schmid and Simon Burkey work together to build Clifton Construction. They passionalty complete projects for various clients. </p>
-      <figure>
-        <img src="images/Simon profile.jpg" alt="Photo of Simon"></img>
-        <figcaption>Simon Burkey</figcaption>
-      </figure>
+      <p class="description">Founded in 2022, Clifton Construction has been improving Cincinnati with every project they complete. With the goal of advancing their skills in construction, Alisander Schmid and Simon Burkey work together to build Clifton Construction. They passionalty complete projects for various clients.</p>
+      <div class="about">
+        <figure>
+          <img src="images/Simon profile same size.png" alt="Photo of Simon"></img>
+          <figcaption>Simon Burkey</figcaption>
+        </figure>
 
-      <figure>
-        <img src="images/Alisander Profile Pic.png" alt="Photo of Alisander">
-        <figcaption>Alisander Schmid</figcaption>
-      </figure>
+        <figure>
+          <img src="images/Alisander Profile Pic.png" alt="Photo of Alisander">
+          <figcaption>Alisander Schmid</figcaption>
+        </figure>
+      </div>
+      <div></div>
     </section>
   </div>
 
