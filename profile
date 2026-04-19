@@ -26,9 +26,26 @@
 
         <figcaption> <button>Edit</button></figcaption>
       </figure>
+
+        <h3 class="about">Information</h3>
       <div class="form">
         <h3 id="Header">Contact Information</h3>
         <div class="personal">
+          <ul>
+            <li>
+              <p>Name</p> <button></button>
+            </li>
+            <li>
+              <p>Phone Number</p><button></button>
+            </li>
+            <li>
+              <p>Email</p><button></button>
+            </li>
+          </ul>
+        </div>
+        <div class="form2">
+        <h3 id="Header">Personal Information</h3>
+        < class="personal">
           <ul>
             <li>
               <p>Name</p> <button></button>
