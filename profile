@@ -21,15 +21,16 @@
     </nav>
     <section class="grid">
       <h2 class="intro">Profile</h2>
-      <figure class="pic">
-        <img src="images/default profile pic.jpg" alt="Person Icon">
+      <div class="profile_pic">
+        <figure class="pic">
+          <img src="images/default profile pic.jpg" alt="Person Icon">
 
-        <figcaption> <button>Edit</button></figcaption>
-      </figure>
-
-        <h3 class="about">Information</h3>
-      <div class="form">
-        <h3 id="Header">Contact Information</h3>
+          <figcaption> <button>Edit</button></figcaption>
+        </figure>
+      </div>
+      <h3 class="about_you">Information</h3>
+      <div class="forms">
+        <h3 id="Header">Contact</h3>
         <div class="personal">
           <ul>
             <li>
@@ -43,9 +44,8 @@
             </li>
           </ul>
         </div>
-        <div class="form2">
-        <h3 id="Header">Personal Information</h3>
-        < class="personal">
+        <h3 id="Header">Personal</h3>
+        <div class="personal">
           <ul>
             <li>
               <p>Name</p> <button></button>
