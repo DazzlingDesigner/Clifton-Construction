@@ -1,23 +1,24 @@
 h1 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: roboto;
   font-size: 4em;
   text-align: center;
   margin: 2rem;
-
 }
 
 h3 {
   margin-left: 2rem;
+  font-family: roboto;
 }
 
 section.grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto;
 }
 
 h2.intro {
   grid-column: 1/3;
+  font-family: roboto;
 }
 
 body {
@@ -37,19 +38,25 @@ img {
 
 .intro {
   font-size: 2em;
-  margin: 2.5rem 2rem .7rem 2rem;
+  margin: 2.3rem 2rem .7rem 2rem;
   grid-row: 1/2;
 }
 
 .section {
+  grid-row: 2/3;
+  grid-column: 3/8;
+}
+
+.about-us {
   grid-row: 1/2;
   grid-column: 1/6;
-
 }
 
 .description {
   font-size: 1.2em;
   margin: 0 2rem 2rem 1rem;
+  line-height: 1.4em;
+  font-family: roboto;
 }
 
 .small_header {
@@ -58,48 +65,115 @@ img {
   font-size: 1.2em;
   grid-row: 3/4;
   align-items: end;
+  font-family: roboto;
 }
 
 section.contact {
   grid-column: 4/6;
   margin: 2rem;
   grid-row: 4/6;
+  font-family: roboto;
 }
 
 
 
 section.contact h2 {
   margin-bottom: .5rem;
+  font-family: roboto;
 }
 
 .benefits {
-  grid-column: 6/8;
+  grid-column: 1/3;
   justify-items: center;
-  grid-row: 1/2;
-  align-self: center;
-  margin: 3rem 2rem 2rem 2rem;
+  grid-row: 3/4;
+  align-self: end;
   border: 3px solid green;
   box-shadow: .3rem .3rem 3px green;
   padding: 1.2rem 2rem;
   text-align: left;
   justify-self: center;
   width: fit-content;
+  margin: .5rem 2rem 2rem 2rem;
+  font-family: roboto;
 }
 
 .contact {
   display: grid;
   grid-template-columns: 1fr;
-  margin: 2rem 3rem 0 0rem;
-  grid-column: 6/8;
+  margin: 6rem 1rem 0 4rem;
+  grid-column: 3/5;
   grid-row: 3/4;
+  font-family: roboto;
+}
+
+
+.skills {
+  grid-column: 1/8;
+  grid-row: 2/3;
+  margin: 0 1rem 4rem 0;
+  font-family: roboto;
+}
+
+.li {
+  font-size: 1.3em;
+  display: flex;
+  margin: 0 4rem;
+  grid-column: 2/4;
+}
+
+li {
+  margin: 1rem 2rem;
+}
+
+.skills h3 {
+  font-size: 1.3em;
+  margin: 0 3rem 2rem 3rem;
+  
+}
+
+
+.social {
+  width: 110px;
+  height: 110px;
+}
+
+.network {
+  display: flex;
+  grid-column: 1/8;
+  margin: 2rem 2rem 1rem 2rem;
+  justify-content: space-around;
+}
+
+
+
+.hammer {
+  grid-row: 1/3;
   align-self: center;
+  margin: 5rem 5rem 0 5rem;
+  grid-column: 1/3;
+  justify-self: center;
 }
 
 .contact_us {
   font-size: 2em;
-  margin-bottom: 0;
+  
 }
 
+.Gallery img {
+ 
+}
+
+.Gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin: 2rem 1rem;
+  justify-self: center;
+  grid-column: 1/8;
+  grid-row: 1/5;
+  align-self: center;
+gap: 1rem;
+}
 .message {
   font-size: 1em;
   min-height: 12rem;
@@ -148,16 +222,18 @@ nav {
   /* optional */
   background-color: rgb(223, 191, 150);
   /* change this to your color choice */
+  /* height: fit-content; */
+  height: fit-content;
 }
 
 div.founder_box {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 0 1rem;
+  grid-template-rows: 1fr 1fr;
   grid-column: 6/8;
-  grid-row: 2/3;
-  margin: 2.3rem 1rem 2.3rem 0;
-  align-self: center;
+  grid-row: 2/4;
+  margin: 2.3rem 1rem 0 0;
+  gap: 1rem;
 }
 
 div.about {
@@ -172,13 +248,23 @@ div.about {
 
 .founders {
   grid-column: 1/3;
-  margin: 0 0 1rem 0;
+  margin: 0 1rem 1rem 2.1rem;
   font-size: 1.3em;
+  justify-self: left;
+  grid-row: 1/2;
+  align-self: end;
 }
 
 .founder_1 {
   grid-column: 1/2;
-  height: auto;
+  grid-row: 2/3;
+  justify-self: start;
+}
+
+.founder_2 {
+  grid-column: 2/3;
+  justify-self: start;
+  grid-row: 2/3;
 }
 
 .pic {
@@ -189,8 +275,8 @@ div.about {
 }
 
 .profile_pic {
-  grid-column: 1/3;
-  grid-row: 2/4;
+  grid-column: 2/3;
+  grid-row: 2/3;
   margin: 0;
 }
 
@@ -203,28 +289,43 @@ div.about {
   font-size: 1em;
 }
 
-.forms {
-  margin: 3rem;
+.form1 {
   grid-column: 4/6;
-  grid-row: 2/3;
+  grid-row: 2/4;
+  margin: 5rem 2rem 2rem 0;
+}
+
+.form2 {
+  grid-column: 6/8;
+  grid-row: 2/4;
+  margin: 5rem 2rem 2rem 0;
 }
 
 .personal {
   margin: 2rem;
-  grid-row: 1/2;
+
+  grid-column: 4/5;
+}
+
+.personal li {
+  margin: 2rem 0;
+}
+
+.list {
   list-style: none;
 }
 
 #Header {
-  font-size: 1.5em;
+  font-size: 1.3em;
   justify-self: left;
-  margin: 0;
-s}
-
-.founder_2 {
-  grid-column: 2/3;
-  height: auto;
+  margin: 2.5rem 2rem 1.5rem 0;
 }
+
+#Header.CNTC {
+  margin-top: 3rem;
+}
+
+
 
 nav ul {
   display: flex;
@@ -238,25 +339,33 @@ nav ul {
 }
 
 nav li {
-  padding: 1rem;
   list-style-type: none;
   /* removes bullet points */
+  margin: 0;
+}
+
+.list button {
+  width: 17rem;
+  height: 2.5rem;
+  /* margin-left: 1rem; */
 }
 
 nav a {
   /* navigation links */
-  padding: 1rem 2rem;
+  padding: 1.5rem 2rem;
   /* clickable space around links */
   text-decoration: none;
   /* removes link underlines */
   color: black;
   /* or any other color you want */
+  display: block;
 }
 
 nav a:hover {
   background-color: orangered;
   /* change this to your color choice  */
   color: white;
+height: 100%;
 }
 
 .about {
@@ -267,9 +376,32 @@ nav a:hover {
 }
 
 .about_you {
-  grid-row: 3/4;
-  grid-column: 3/4;
-  font-size: 1.3em;
-  margin: 0rem 2rem 2rem 2rem;
+  font-size: 1.5em;
+  margin: 3rem 3rem 2rem 0;
+  grid-row: 2/3;
+  grid-column: 4/6;
 }
 
+.interactions {
+  margin: 2rem;
+}
+
+.interactions li {
+  margin: 2rem 0;
+}
+
+@media (max-width: 768px) {
+  .grid {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr;
+  }
+  .form1 {
+    grid-columns: 2/3;
+    grid-row: 2/3;
+  }
+  .form2 {
+    grid-columns: 3/4;
+    grid-row: 2/3;
+  }
+}

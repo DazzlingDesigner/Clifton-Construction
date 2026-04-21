@@ -6,6 +6,9 @@
   <title>Clifton Construction</title>
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bebas+Neue&family=Bilbo+Swash+Caps&family=Cormorant+SC:wght@300;400;500;600;700&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Dancing+Script:wght@400..700&family=Fjalla+One&family=Gravitas+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Lavishly+Yours&family=League+Spartan:wght@100..900&family=Momo+Signature&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+GB+J+Guides:ital@0;1&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -29,37 +32,58 @@
         </figure>
       </div>
       <h3 class="about_you">Information</h3>
-      <div class="forms">
-        <h3 id="Header">Contact</h3>
-        <div class="personal">
-          <ul>
-            <li>
-              <p>Name</p> <button></button>
-            </li>
-            <li>
-              <p>Phone Number</p><button></button>
-            </li>
-            <li>
-              <p>Email</p><button></button>
-            </li>
-          </ul>
-        </div>
+      <div class="form1">
+
+        
         <h3 id="Header">Personal</h3>
         <div class="personal">
-          <ul>
+          <ul class="list">
             <li>
               <p>Name</p> <button></button>
             </li>
             <li>
-              <p>Phone Number</p><button></button>
+              <p>Date of Birth</p><button></button>
+            </li>
+            <li>
+              <p>Age</p><button></button>
+            </li>
+            
+          </ul>
+        </div>
+        <h3 id="Header" class="CNTC">Contact</h3>
+        <div class="personal">
+          <ul class="list">
+            <li>
+              <p>Phone Number</p> <button></button>
             </li>
             <li>
               <p>Email</p><button></button>
+            </li>
+            <li>
+              <p>Address</p><button>        </button>
             </li>
           </ul>
         </div>
       </div>
-    </section>
+      <div class="form2">
+        <h3 id="Header">Activity</h3>
+        <div class="interactions">
+          <ul class="list">
+            <li>
+              <button>Your Projects</button>
+            </li>
+            <li>
+              <button>Conversations</button>
+            </li>
+            <li>
+              <button>Saved Projects</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+  </div>
+  </div>
+  </section>
   </div>
 
 </body>
