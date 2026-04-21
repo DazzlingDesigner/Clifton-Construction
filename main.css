@@ -31,6 +31,7 @@ div.Wrapper {
   margin-left: auto;
   margin-right: auto;
   max-width: 2561px;
+  justify-self: center;
 }
 
 img {
@@ -81,6 +82,7 @@ section.contact {
 
 .lander {
   width: 100vw;
+  display: block;
 }
 
 section.contact h2 {
