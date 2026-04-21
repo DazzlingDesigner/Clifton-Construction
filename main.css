@@ -232,10 +232,6 @@ nav {
   width: 100%;
 }
 
-* {
-  outline: 1px solid red;
-}
-
 div.founder_box {
   display: grid;
   grid-template-columns: 1fr 1fr;
