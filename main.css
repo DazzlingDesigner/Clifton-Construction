@@ -80,7 +80,9 @@ section.contact {
   font-family: roboto;
 }
 
-
+.lander {
+  width: 100vw;
+}
 
 section.contact h2 {
   margin-bottom: .5rem;
