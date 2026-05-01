@@ -1,5 +1,4 @@
 h1 {
-  font-family: roboto;
   font-size: 4em;
   text-align: center;
   margin: 2rem;
@@ -7,58 +6,54 @@ h1 {
 
 h3 {
   margin-left: 2rem;
-  font-family: roboto;
 }
 
 section.grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: auto auto auto auto auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-h2.intro {
+h2 {
   grid-column: 1/3;
-  font-family: roboto;
+  font-size: 2em;
 }
 
 
 div.Wrapper {
   max-width: 100%;
-  width: 100%;
-  max-width: 2561px;
-  justify-self: center;
   padding: 0;
-  box-sizing: border-box;
-}
-
-img {
-  max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 1rem;
 }
 
 
-.intro {
+.page_title,
+.about_us h2 {
   font-size: 2em;
   margin: 2.3rem 2rem .7rem 2rem;
   grid-row: 1/2;
 }
 
-.section {
-  grid-row: 2/3;
-  grid-column: 3/8;
+.welcome {
+  grid-row: 1/2;
+  grid-column: 2/5;
+  margin: 4rem 2rem 2rem 0;
 }
 
-.about-us {
+body {
+  font-family: roboto;
+}
+
+.about_us {
   grid-row: 1/2;
   grid-column: 1/6;
+  margin: 0 1rem 1rem 1rem;
 }
 
-.description {
+.intro {
   font-size: 1.2em;
-  margin: 0 2rem 2rem 1rem;
+  margin: .7rem 2rem 2rem 1rem;
   line-height: 1.4em;
-  font-family: roboto;
+
 }
 
 .small_header {
@@ -67,73 +62,43 @@ img {
   font-size: 1.2em;
   grid-row: 3/4;
   align-items: end;
-  font-family: roboto;
 }
 
-section.contact {
-  grid-column: 4/6;
-  margin: 2rem;
-  grid-row: 4/6;
-  font-family: roboto;
-}
-
-.lander {
+.banner {
   width: 100%;
   display: block;
 }
 
-section.contact h2 {
-  margin-bottom: .5rem;
-  font-family: roboto;
-}
-
 .benefits {
   grid-column: 1/3;
-  justify-items: center;
-  grid-row: 3/4;
-  align-self: end;
+  grid-row: 2/3;
   border: 3px solid green;
   box-shadow: .3rem .3rem 3px green;
   padding: 1.2rem 2rem;
   text-align: left;
   justify-self: center;
   width: fit-content;
-  margin: .5rem 2rem 2rem 2rem;
-  font-family: roboto;
+  height: fit-content;
+  margin: 3.3rem 2rem 2rem 2rem;
 }
 
-.contact {
-  display: grid;
-  grid-template-columns: 1fr;
-  margin: 6rem 1rem 0 4rem;
-  grid-column: 3/5;
-  grid-row: 3/4;
-  font-family: roboto;
-}
-
-
-.skills {
-  grid-column: 1/8;
+.expertise {
+  grid-column: 1/3;
   grid-row: 2/3;
-  margin: 0 1rem 4rem 0;
-  font-family: roboto;
-}
-
-.li {
-  font-size: 1.3em;
-  display: flex;
-  margin: 0 4rem;
-  grid-column: 2/4;
+  margin: 0 1rem 2rem 1rem;
+  justify-self: center;
+  background-color: rgba(255, 68, 0, 0.842);
+  padding: 2.5rem 4rem 3.5em 4rem;
 }
 
 li {
-  margin: 1rem 2rem;
+  margin: 1rem 0 0 2rem;
+  font-size: 1.3em;
 }
 
-.skills h3 {
-  font-size: 1.3em;
-  margin: 0 3rem 2rem 3rem;
-  
+.expertise h3 {
+  font-size: 1.5em;
+  margin: 0 3rem 2rem 0;
 }
 
 
@@ -152,21 +117,16 @@ li {
 
 
 .hammer {
-  grid-row: 1/3;
-  align-self: center;
-  margin: 5rem 5rem 0 5rem;
-  grid-column: 1/3;
+  grid-row: 1/2;
+  /* align-self: center; */
+  margin: 2rem;
+  grid-column: 1/2;
   justify-self: center;
+  align-self: c;
+  width: 30%;
 }
 
-.contact_us {
-  font-size: 2em;
-  
-}
-
-.Gallery img {
- 
-}
+.Gallery img {}
 
 .Gallery {
   display: grid;
@@ -177,20 +137,7 @@ li {
   grid-column: 1/8;
   grid-row: 1/5;
   align-self: center;
-gap: 1rem;
-}
-.message {
-  font-size: 1em;
-  min-height: 12rem;
-  margin-top: 1rem;
-  width: 100%;
-}
-
-.send {
-  width: fit-content;
-  padding: 0.5rem 1rem;
-  font-size: 1em;
-  margin: 1rem 0;
+  gap: 1rem;
 }
 
 .icon_big {
@@ -204,8 +151,7 @@ button.message {
 }
 
 .benefits h3 {
-  margin: 0 0 1rem 0;
-  text-align: center;
+  margin: .3rem 1rem 1.8rem 1rem;
   font-size: 1.3em;
   justify-self: center;
 }
@@ -216,11 +162,8 @@ button.message {
 
 .benefits ul {
   text-align: left;
-  width: fit-content;
+  margin-bottom: 1rem;
 }
-
-
-
 
 nav {
   text-transform: uppercase;
@@ -232,49 +175,49 @@ nav {
   width: 100%;
 }
 
-div.founder_box {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  grid-column: 6/8;
-  grid-row: 2/4;
-  margin: 2.3rem 1rem 0 0;
-  gap: 1rem;
-}
-
-div.about {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0 1rem;
-  grid-column: 6/8;
-  grid-row: 1/2;
-  margin: 3rem 1rem 2rem 1rem;
-  align-self: start;
-}
-
 .founders {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-column: 3/5;
+  grid-row: 2/3;
+  margin: 1rem 2rem 2rem 2rem;
+  gap: 1rem;
+  justify-self: center;
+}
+
+section.about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  grid-row: 2/3;
+  /* align-self: start; */
+  /* font-size: 1.3em; */
+  grid-column: 3/5;
+}
+
+.founders_title {
   grid-column: 1/3;
-  margin: 0 1rem 1rem 2.1rem;
+  margin: 0 1rem 1rem 2rem;
   font-size: 1.3em;
   justify-self: left;
   grid-row: 1/2;
-  align-self: end;
 }
 
 .founder_1 {
   grid-column: 1/2;
-  grid-row: 2/3;
-  justify-self: start;
+  grid-row: 1/2;
+  margin-top: 2.5rem;
 }
 
 .founder_2 {
   grid-column: 2/3;
-  justify-self: start;
-  grid-row: 2/3;
+  margin-top: 2.5rem;
+  grid-row: 1/2;
 }
 
 .pic {
-  grid-column: 1/3;
+  grid-column: 2/3;
   grid-row: 1/2;
   margin: 3rem 2rem 2rem 2rem;
   min-width: min-content;
@@ -296,13 +239,13 @@ div.about {
 }
 
 .form1 {
-  grid-column: 4/6;
+  grid-column: 3/4;
   grid-row: 2/4;
   margin: 5rem 2rem 2rem 0;
 }
 
 .form2 {
-  grid-column: 6/8;
+  grid-column: 4/5;
   grid-row: 2/4;
   margin: 5rem 2rem 2rem 0;
 }
@@ -327,8 +270,8 @@ div.about {
   margin: 2.5rem 2rem 1.5rem 0;
 }
 
-#Header.CNTC {
-  margin-top: 3rem;
+#Header.contact {
+  margin-top: 5rem;
 }
 
 
@@ -371,21 +314,15 @@ nav a:hover {
   background-color: orangered;
   /* change this to your color choice  */
   color: white;
-height: 100%;
+  height: 100%;
 }
 
-.about {
-  font-size: 1.3em;
-  grid-row: 1/2;
-  grid-column: 4/5;
-  margin: 3rem 2rem 1rem 3rem;
-}
 
 .about_you {
   font-size: 1.5em;
-  margin: 3rem 3rem 2rem 0;
+  margin: 3rem 0 2rem 0;
   grid-row: 2/3;
-  grid-column: 4/6;
+  grid-column: 3/4;
 }
 
 .interactions {
@@ -397,37 +334,146 @@ height: 100%;
 }
 
 @media (max-width: 768px) {
-  .grid {
-display: grid;
-grid-template-columns: 1fr 1fr 1fr 1fr;
-grid-template-rows: 1fr 1fr 1fr;
+  section.grid {
+    display: grid;
+    grid-template-columns: 1fr;
   }
-  .form1 {
-    grid-column: 3/4;
-    grid-row: 2/3;
+
+  h1 {
+    font-size: 2.5em;
     margin: 0;
   }
-  .form2 {
-    grid-column: 4/5;
-    grid-row: 2/3;
-    margin: 0;
-  }
+
   .about_you {
-  margin:  0;
-  grid-row: 2/3;
-  grid-column: 3/4;
-}
-.pic {
-  grid-column: 1/2;
-  grid-row: 1/2;
-  margin: 30;
-  min-width: min-content;
-}
+    font-size: 1.4em;
+    margin: 0;
+    grid-row: 3/4;
+    grid-column: 1/2;
+  }
+
+  .form1 {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    margin: 0;
+    font-size: 1em;
+  }
+
+  .form2 {
+    grid-column: 1/2;
+    grid-row: 5/6;
+    margin: 0;
+    font-size: 1em;
+  }
+
+  .about_you {
+    margin: 0;
+    grid-row: 3/4;
+    grid-column: 1/2;
+  }
+
+  .pic {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin: 30;
+    min-width: min-content;
+  }
 
 
-.profile_pic {
+  .profile_pic {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin: 0;
+  }
+
+  section.about {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column: 1fr;
+    grid-row: 2/3;
+    grid-column: 1/6;
+    margin: 0 1rem 1rem 1rem;
+    justify-self: center;
+  }
+
+  .expertise {
+    grid-row: 3/4;
+    justify-self: center;
+  }
+  li {
+  margin: 1rem 0 0 2rem;
+  font-size: .9em;
+}
+
+.list button {
+width: 10rem;
+}
+
+.page_title,
+.about_us h2 {
+  font-size: 1.6em;
+}
+
+.Gallery {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-self: center;
   grid-column: 1/2;
-  grid-row: 2/3;
+}
+
+section.Gallery img{
+  width: 100%;
+  justify-self: center;
+}
+
+.welcome {
+  grid-column: 1/2;
   margin: 0;
+  padding: 0;
 }
+
+.welcome h2 {
+  grid-column: 1/2;
+  margin-top: 6rem;
+  padding: 0;
+}
+
+section.grid img {
+  width: 30%;
+  justify-self: center;
+  grid-column: 1/2;
+  margin: 0;
+  padding: 0;
+}
+
+.intro {
+grid-column: 1/2;
+margin: 0;
+padding: 0;
+}
+
+.benefits {
+  grid-column: 1/2;
+  justify-self: center;
+}
+
+.founders {
+  grid-column: 1/2;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.founder_1 {
+  width: 100%;
+  margin: 1rem;
+  grid-row: 1/3;
+}
+.founder_2 {
+  width: 100%;
+  margin: 1rem;
+  grid-row: 2/3;
+}
+
 }
